@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/b893f6359d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+  <link rel="stylesheet" href="FFP_Footer.css">
+  <title>FutureFilmProduction</title>
+  
+    <style>
+        .fa {
+          padding: 20px;
+          font-size: 15px;
+          width: 30px;
+          text-align: center;
+          text-decoration: none;
+          margin: 5px 2px;
+           border-radius: 30%;
+        }
+        
+        .fa:hover {
+            opacity: 0.7;
+        }
+        
+        .fa-facebook {
+          background: #3B5998;
+          color: white;
+        }
+        .fa-twitter {
+          background: #55ACEE;
+          color: white;
+        }
+        
+        .fa-linkedin {
+          background: #007bb5;
+          color: white;
+        }
+        
+        
+        body {font-family: Arial, Helvetica, sans-serif;}
+        * {box-sizing: border-box;}
+        
+        /* Full-width input fields */
+        input[type=text], input[type=password] {
+          width: 100%;
+          padding: 15px;
+          margin: 5px 0 22px 0;
+          display: inline-block;
+          border: none;
+          background: #f1f1f1;
+        }
+        
+        /* Add a background color when the inputs get focus */
+        input[type=text]:focus, input[type=password]:focus {
+          background-color: #ddd;
+          outline: none;
+        }
+        
+        /* Set a style for all buttons */
+        button {
+          background-color: #04AA6D;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+          opacity: 0.9;
+        }
+        
+        button:hover {
+          opacity:1;
+        }
+        
+        /* Extra styles for the cancel button */
+        .cancelbtn {
+          padding: 14px 20px;
+          background-color: #f44336;
+        }
+        
+        /* Float cancel and signup buttons and add an equal width */
+        .cancelbtn, .signupbtn {
+          float: left;
+          width: 50%;
+        }
+        
+        /* Add padding to container elements */
+        .container {
+          padding: 16px;
+        }
+        
+        /* The Modal (background) */
+        .modal {
+          display: none; /* Hidden by default */
+          position: fixed; /* Stay in place */
+          z-index: 1; /* Sit on top */
+          left: 0;
+          top: 0;
+          width: 100%; /* Full width */
+          height: 100%; /* Full height */
+          overflow: auto; /* Enable scroll if needed */
+          background-color: #474e5d;
+          padding-top: 50px;
+        }
+        
+        /* Modal Content/Box */
+        .modal-content {
+          background-color: #fefefe;
+          margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+          border: 1px solid #888;
+          width: 80%; /* Could be more or less, depending on screen size */
+        }
+        
+        /* Style the horizontal ruler */
+        hr {
+          border: 1px solid #f1f1f1;
+          margin-bottom: 25px;
+        }
+         
+        /* The Close Button (x) */
+        .close {
+          position: absolute;
+          right: 35px;
+          top: 15px;
+          font-size: 40px;
+          font-weight: bold;
+          color: #f1f1f1;
+        }
+        
+        .close:hover,
+        .close:focus {
+          color: #f44336;
+          cursor: pointer;
+        }
+        
+        /* Clear floats */
+        .clearfix::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        
+        /* Change styles for cancel button and signup button on extra small screens */
+        @media screen and (max-width: 300px) {
+          .cancelbtn, .signupbtn {
+             width: 100%;
+          }
+        }
+        </style>
+</head>
+<body>
+   <!-- background color -->
+   <div style="background-color: white;">
+  
+    <!-- jumbotron -->
+  <div class="container-fluid ">
+    <div class="jumbotron" style="background-color: white; color: brown;">
+      <h1 style="text-align: center; font-family: fantasy; ">FutureFIlM</h1>
+      <p style="text-align: center; font-family: fantasy ; ">A Different Taste In Every Movie Ticket!</p>
+    </div>
+  </div>
+
+     <!-- Nav bar -->
+     <div class="container-fluid">
+     <nav class="navbar navbar-expand-md light navbar-light">
+      <!-- Brand -->
+      <a class="navbar-brand text-danger" href="FFP_Home.html"><b><i>FutureFIlM</i></b></a>
+
+      <!-- Links -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-danger ml-5" href="FFP_Home.html"><b>Home</b></a>
+        </li>
+        
+
+        <!-- DropDown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-danger ml-5" href="#" role="button" data-bs-toggle="dropdown"><b>Genre</b></a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="FFP_ClassicFilms_G1.html">Classic Films</a></li>
+            <li><a class="dropdown-item" href="FFP_ModishFilms_G2.html">Modish Films</a></li>
+            <li><a class="dropdown-item" href="FFP_Romance_G3.html">Romance</a></li>
+          </ul>
+        </li>
+
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-danger ml-5" href="#" role="button" data-bs-toggle="dropdown"><b>Movies</b></a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="FFP_NowShowing.html">Now Showing</a></li>
+            <li><a class="dropdown-item" href="FFP_ComingSoon.html">Coming Soon</a></li> 
+           
+          </ul>
+        </li>
+      </ul>
+
+        <!-- Links -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-danger ml-5" href="FFP_SignUpForm.html"><b>SignUp/Login</b></a>
+        </li>
+      </nav>
+  </div>
+        
+            <div class="container">
+              <h1 style="font-family: fantasy; color: brown;">Didn't Have An Account?</h1>
+              <p style="font-family: fantasy; color: black;">Please fill in this form to create a FutureFILM account.</p>
+              <hr>
+              
+              <label for="uname">Username:</label>
+              <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required> 
+              
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" required>
+        
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+        
+              <label for="psw-repeat"><b>Repeat Password</b></label>
+              <input type="password" placeholder="Confirm Password" name="psw-repeat" required>
+              
+              <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+              </label>
+        
+              <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+               Geneva, Verdana, sans-serif; color: black;">By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+        
+              <div class="clearfix">
+                <a  href="FFP_Successful.html" type="button" class="btn btn-dark" style="font-family: fantasy; color: red;">Sign Up</a>
+                <a  href="FFP_LoginForm.html" type="button" class="btn btn-dark" style="font-family: fantasy; color: white;">Login</a>
+                
+                
+              </div>
+            </div>
+          </form>
+        </div>
+    </div>
+    
+       <!-- FOOTER START -->
+ <div class="footer">
+    <div class="contain"> <div class="col">
+        <h1><b> FutureFILM </b></h1>
+        <ul>
+          <li class="footer">
+          <a class="footer" href="FFP_Home.html" style="color: white;">About Us</a><br><br>
+          <a class="footer" href="FFP_ClassicFilms_G1.html" style="color: white;">Genre</a><br><br>
+          <a class="footer" href="FFP_Romance_G3.html" style="color: white;">Movies</a><br>
+          </li>
+          
+        </ul>
+      </div>
+      <div class="col">
+        <h1> <b> Contact Us </b></h1>
+        <ul>
+          <li class="footer">
+          <a class="footer" href="FFP_ContactUsForm.html" style="color: white;">Contact</a><br><br>
+          <a class="footer" href="FFP_SignUpForm.html" style="color: white;">Sign Up</a><br><br>
+          <a class="footer" href="FFP_LoginForm.html" style="color: white;">Login</a><br><br>
+          </li>
+          
+          
+        </ul>
+      </div>
+      
+      
+      <div class="col">
+        <h1><b> Address </b></h1>
+        <ul>
+          <li style="color: white;">No.28, ART Street,
+            Scene Qtr,
+            Yangon, Sule, 
+            FutureFIlM Production. <br>
+            Hotline: 203913
+            +95 9248304220
+            </li>
+          
+          
+        </ul>
+      </div>
+  
+  </div>
+  <div class="col">
+    <h1><b>Get Map</b></h1>
+    <ul>
+      <li class="footer">
+      <a class="footer" href="https://goo.gl/maps/HhRzBaSa3F4CA49r8" style="color: white;"> https://goo.gl/maps/<br>HhRzBaSa3F4CA49r8</a><br><br>
+     
+      </li>
+      
+      
+    </ul>
+  </div>
+      
+      
+      <div class="col social">
+        <h1><b> Follow Us On </b></h1>
+        <ul>
+          <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+          <a href="https://twitter.com/" class="fa fa-twitter"></a>
+          <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+        </ul>
+      </div>
+      
+      
+      <br><br><br><br><br><br><br><br><br><br>
+     </div>
+      
+</div>
+<h5 style="text-align: center;">@2023 copyright.All right reserved.</h5>
+</div>
+</div>
+</body>
+</html>
